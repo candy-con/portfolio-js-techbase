@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no"><!--レスポンシブデザイン-->
+    <link rel="stylesheet" href="portfolio-works.css"> <!--ホームページ用のcss-->
+    <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
+	<title>宮城ひゅうがのホームページ</title>
+    <style>
+        #child1 {
+          background-color: black;
+        }
+        #child2 {
+          background-color: whitesmoke;
+        }
+    
+        @media (min-width: 600px) {
+          #parent {
+            display: flex;
+          }
+          #child1 {
+            flex-grow: 1;
+          }
+          #child2 {
+            flex-grow: 1;
+          }
+        }
+      </style>
+</head>
+<body>
+<div class = "wrap">
+<header>
+<nav>
+ <!--- <img src = ""> </img> アイコンは未定-->
+<ul>
+    <li><a href = HM_portfolio.html>トップ</a></li>
+    <li><a href = career.html >経歴</a></li>
+    <li><a href = portfolio-works.html>制作物・研究</a></li>
+    <li><a href = revised_contact.html >コンタクト</a></li>
+</ul>
+</nav>
+</header>
+<div class = "theme">
+    <br>
+    <br>
+    <p>
+        <font size = "6">Research&Works</font>
+    </p>
+    <br>
+    <br>
+</div>
+<div id = "parent">
+<div class = "child1">
+    <br>
+    <div class = "research">
+      <p><font size = "6">Research</font></p>
+    </div>
+    <br>
+    <div class = "script1">
+    <div class="text-line">
+      </div>
+    <p>
+      <br>
+        <strong>姿勢推定を用いた転倒検知</strong><br> 
+        <font size="1">期間: 2021年 10月 ~ 2022年 9月</font>
+      <br>
+    <font size = "2">
+        <br>
+        姿勢推定を用いて検出された体の各関節の座標をもとに<br>
+        転倒・歩行中・立ち上がりの3つ状態に対象を分類する<br>
+        ソフトです。アルゴリズム上の難点としては、関節が<br>
+        検知されない場合に欠損値が座標に格納されるため、<br>
+        適切な状態を表示し続ける仕組みを作るのに苦戦しました。<br>
+        <br>
+    </font>
+    </p>
+    </div>
+    <div class = "myvideo">
+            <iframe width="500" height="380" src="http://www.youtube.com/embed/9F2J1XaK-Iw?autoplay=1&loop=1&playlist=9F2J1XaK-Iw" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class = "scroll-bg">
+      <div class = "scroll-div">
+        <div class = "scroll-object">
+        <div class="text-line">
+            <br>
+            <strong>研究に至った背景</strong><br> 
+            <br>
+          </div>
+    <p>
+            <font size = "2">
+            我が国では高齢者率が29.1%に達し、高齢者福祉施設へ入居する高齢者が<br>
+            増加していることもあり、介護人材の確保が喫緊の課題となっています。<br>
+            しかしながら、従来の3K的なイメージが払拭できておらず、依然として<br>
+            人手の足りない状況に解消のめどは立っていません。本研究は上記のような<br>
+            介護業界の状況を改善したいとの思いがあって開始しました。<br>
+            </font>
+    </p>
+        <div class="text-line">
+          <br>
+          <strong>なぜ転倒に着目したのか</strong>
+          </div>
+            <p> <font size = "2"><br>
+                現在介護施設において使用されている歩行センサは利用者の歩行動作<br>
+                あるいは転倒リスクが生じた場合にその旨を伝達するものの、転倒の発生<br>
+                を確認するのは介護職員であり、事故の把握までにラグが生じる可能性が<br>
+                あります。そこで、私は事故の発見の遅れを防ぐためにAIを用いた転倒<br>
+                判定システムを用いれば、介護現場の負担を軽減し、事故の発見が遅れる<br>
+                リスクを抑えられるのではないかと思い、本研究に着手しはじめました。<br>
+        </font>
+        </p>    
+      </div>
+    </div>
+    <br>
+    </div>
+    <br>
+</div>
+<div class = "child2">
+  <br>
+  <div class = "works">
+    <p><font size = "6">Works</font></p>
+  </div>
+  <br>
+  <div class = "scroll-bg">
+    <div class = "scroll-div">
+      <div class = "scroll-object">
+      <div class="text-line">
+          <br>
+          <strong>執筆した記事(QITTA)</strong><br> 
+          <br>
+        </div>
+  <p>
+            <a href = "https://qiita.com/candy_wataame/items/153dc54564e88d45cc06"><img src = "qiitalink1.png" width = 420></img></a>
+  </p>
+      <div class="text-line">
+        <br>
+        <strong>そのほかのもの</strong><br>
+        <br>
+        </div>
+          <p> 
+            スクラッチアートから着想を得て描いたイラスト<br>
+            <br>
+            <img src= "cat_art.png" width = 420></img>
+            <br>
+      </p>    
+    </div>
+  </div>
+  <br>
+  </div>
+  <br>
+  <br>
+  <div class = "coming_up">
+    <p><font size = "5"><strong>ほか、制作物等を準備中.......</strong></font></p>
+  </div>
+</div>
+</div>
+<footer>
+<div class = "footer_inside">
+    <p><font size = "1" >&copy; 2022, Hyuga Miyagi. Allrightsreserved.</font></p>
+</div>
+</footer>
+</div>
+</body>
+</html>

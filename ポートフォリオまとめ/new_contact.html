@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>お問い合わせ</title>
+  <link rel="stylesheet" href="contact.css">
+  <script src="js/checker.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <!-- ヘッダー情報 -->
+    <header class="header">
+      <nav class="nav">
+        <ul>
+            <li><a href = HM_portfolio.html>トップ</a></li>
+            <li><a href = career.html >経歴</a></li>
+            <li><a href = portfolio-works.html>関わらせていただいたプロジェクト/制作物</a></li>
+            <li><a href = contact.html >コンタクト</a></li>
+            <li><a href = research.html >研究</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- メイン情報 -->
+    <main>
+      <h2>お問い合わせ</h2>
+      <form method="GET" action="mailto:hyuhyuamegold@gmail.com" method = "post" enctype = "text/plain">
+        <div>
+          <label for="kind">お問い合わせの種類</label><br>
+          <select id="kind" name="kind">
+            <option value="interview">連絡を取りたい</option>
+            <option value="request">要望を聞いてほしい</option>
+            <option value="contact">面談等・顔合わせ希望</option>
+          </select>
+        </div>
+        <div>
+          お急ぎですか?<br>
+          <label><input type="radio" name="first" value="yes" checked>はい</label>
+          <label><input type="radio" name="first" value="no">いいえ</label>
+        </div>
+        <div>
+          <label>メールアドレス<br>
+          <input type="text" name="mail_address" placeholder="example@mail.com"></label>
+        </div>
+        <div>
+          <label>お問い合わせの件名<br>
+          <input type="text" name="subject" placeholder="お問い合わせ"></label>
+        </div>
+        <div>
+          <label>お問い合わせの具体的な内容<br>
+          <textarea name="message"></textarea></label>
+        </div>
+        <div>
+          <input type="submit" name="submit" value="送信">
+        </div>
+      </form>
+    </main>
+    <!-- フッター情報 -->
+    <footer>
+        <div class = "footer_inside">
+            <p><font size = "1" >&copy; 2022, Hyuga Miyagi. Allrightsreserved.</font></p>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>
