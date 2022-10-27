@@ -8,5 +8,7 @@ Tech-base/JSインターンの一環として制作したウェブポートフ�
 
 ※推奨表示サイズ: 90 - 110%
 
-
+追記)
+1. portfolio-works.html 埋め込みがうまくいっていない（調整中）
+2. revised_contact.html 送信がうまくいかない（調整中）
 
