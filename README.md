@@ -1,4 +1,4 @@
-# portfolio-js-techbase-
+# portfolio-js-techbase
 personal portfolio, copyrights belong to me
 
 Tech-base/JSインターンの一環として制作したウェブポートフォリオになります。
