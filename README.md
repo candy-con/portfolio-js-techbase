@@ -1,5 +1,5 @@
 # portfolio-page
-personal portfolio, copyrights belong to me
+personal portfolio, copyright belongs to me
 
 Tech-base/JSインターンの一環として制作したウェブポートフォリオになります。<br>
 まだ調整が完了していないため、ユーザ側で拡大縮小を行うと<br>
