@@ -76,6 +76,8 @@ ul {
   position:relative;
   left:-2%;
   background-image:url("fall.png");
+  width:500px;
+  height:300px;
 }
 .child2 {
   text-align:center;
